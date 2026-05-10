@@ -1,0 +1,2 @@
+----------------------------------------
+/bin/sh: line 3: ./zpic: No such file or directory

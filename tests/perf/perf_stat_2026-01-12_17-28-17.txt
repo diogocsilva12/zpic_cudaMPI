@@ -1,0 +1,23 @@
+Invalid timestep, courant condition violation, dtmax = 0.050265 
+srun: error: gnx503: task 0: Exited with exit code 255
+
+ Performance counter stats for './zpic':
+
+              7.96 msec task-clock                #    0.676 CPUs utilized          
+                10      context-switches          #    0.001 M/sec                  
+                 1      cpu-migrations            #    0.126 K/sec                  
+               467      page-faults               #    0.059 M/sec                  
+        26,544,247      cycles                    #    3.336 GHz                      (87.49%)
+           938,695      stalled-cycles-frontend   #    3.54% frontend cycles idle     (87.47%)
+        13,629,727      stalled-cycles-backend    #   51.35% backend cycles idle      (87.44%)
+        33,103,514      instructions              #    1.25  insn per cycle         
+                                                  #    0.41  stalled cycles per insn  (87.45%)
+         4,602,599      branches                  #  578.479 M/sec                    (87.46%)
+           156,321      branch-misses             #    3.40% of all branches          (62.68%)
+
+       0.011773838 seconds time elapsed
+
+       0.005811000 seconds user
+       0.002930000 seconds sys
+
+
